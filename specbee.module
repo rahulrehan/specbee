@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Contains \Drupal\specbee\specbee.module.
+ *
+ * Main file for the specbee module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function specbee_theme($existing, $type, $theme, $path) {
+  return [
+    'location_date_time' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'date_time' => NULL,
+      ],
+    ],
+  ];
+}

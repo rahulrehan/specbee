@@ -1,0 +1,7 @@
+name: "Specbee Assignment"
+type: module
+description: "Provides a current date and time based on timezone specific."
+package: Custom
+core_version_requirement: '>=9'
+# Note: 'version' or 'project' properties added manually as this is not a drupal.org project.
+version: 1.0.0

@@ -1,0 +1,7 @@
+services:
+  specbee.helper:
+    class: Drupal\specbee\Services\SpecbeeHelper
+    arguments:
+      - '@date.formatter'
+      - '@datetime.time'
+      - '@config.factory'
